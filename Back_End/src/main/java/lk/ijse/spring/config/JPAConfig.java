@@ -24,7 +24,7 @@ import javax.sql.DataSource;
 @EnableJpaRepositories(basePackages = "lk.ijse.spring.repo")
 @EnableTransactionManagement
 @PropertySource("classpath:application.properties")
-public class JPAConfig {
+public class  JPAConfig {
 
     @Autowired
     Environment env;
